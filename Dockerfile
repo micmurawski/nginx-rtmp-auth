@@ -44,7 +44,7 @@ RUN	cd /tmp										&&	\
 	./configure										\
 		--prefix=/opt/nginx								\
 		--with-http_ssl_module								\
-        --with-http_auth_request_module							\
+		--with-http_auth_request_module								\
 		--add-module=../nginx-rtmp-module					&&	\
 	make										&&	\
 	make install
